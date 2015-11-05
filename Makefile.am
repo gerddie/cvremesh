@@ -7,7 +7,7 @@ SUBDIRS = src
 
 centroidvoronydocdir = ${prefix}/doc/centroidvorony
 centroidvoronydoc_DATA = \
-	README\
+	README.md\
 	COPYING\
 	AUTHORS\
 	ChangeLog\
