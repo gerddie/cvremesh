@@ -11,8 +11,8 @@ centroidvoronydoc_DATA = \
 	COPYING\
 	AUTHORS\
 	ChangeLog\
-	INSTALL\
-	NEWS
+	INSTALL
+
 
 EXTRA_DIST = $(centroidvoronydoc_DATA)
 
