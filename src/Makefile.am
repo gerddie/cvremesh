@@ -4,7 +4,7 @@
 ## If you don't want it to overwrite it,
 ## 	Please disable it in the Anjuta project configuration
 
-INCLUDES = @GTS_CFLAGS@  -DG_LOG_DOMAIN=\"ACV\"
+AM_CPPFLAGS = @GTS_CFLAGS@  -DG_LOG_DOMAIN=\"ACV\"
 
 AM_CFLAGS =\
 	 -Wall\

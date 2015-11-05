@@ -8,15 +8,15 @@
 # directly.
 
 
-PROJECT="viewitgui"
+PROJECT="centroidvorony"
 TEST_TYPE=-d
-FILE=viewit
+FILE=src
 
 LIBTOOL_REQUIRED_VERSION=1.5
 LIBTOOL_WIN32=1.5
 AUTOCONF_REQUIRED_VERSION=2.59
 AUTOMAKE_REQUIRED_VERSION=1.7
-ACLOCAL_FLAGS="$ACLOCAL_FLAGS -I m4"
+ACLOCAL_FLAGS="$ACLOCAL_FLAGS"
 
 srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
